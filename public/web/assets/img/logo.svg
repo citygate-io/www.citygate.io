@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="185.71924mm"
+   height="85.751328mm"
+   viewBox="0 0 185.71924 85.751329"
+   version="1.1"
+   id="svg3891"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="citygate_logo_vector_transparent_inverted.svg">
+  <title
+     id="title3957">Citygate Logo</title>
+  <defs
+     id="defs3885" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="85.853475"
+     inkscape:cy="97.07897"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="70"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-text-baseline="true" />
+  <metadata
+     id="metadata3888">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Citygate Logo</dc:title>
+        <cc:license
+           rdf:resource="http://scripts.sil.org/OFL" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Brett Nangle</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:relation>https://github.com/mozilla/zilla-slab</dc:relation>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://scripts.sil.org/OFL">
+        <cc:permits
+           rdf:resource="http://scripts.sil.org/pub/OFL/Reproduction" />
+        <cc:permits
+           rdf:resource="http://scripts.sil.org/pub/OFL/Distribution" />
+        <cc:permits
+           rdf:resource="http://scripts.sil.org/pub/OFL/Embedding" />
+        <cc:permits
+           rdf:resource="http://scripts.sil.org/pub/OFL/DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://scripts.sil.org/pub/OFL/Notice" />
+        <cc:requires
+           rdf:resource="http://scripts.sil.org/pub/OFL/Attribution" />
+        <cc:requires
+           rdf:resource="http://scripts.sil.org/pub/OFL/ShareAlike" />
+        <cc:requires
+           rdf:resource="http://scripts.sil.org/pub/OFL/DerivativeRenaming" />
+        <cc:requires
+           rdf:resource="http://scripts.sil.org/pub/OFL/BundlingWhenSelling" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Layer 2"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffffff;stroke-width:0.26458332"
+       id="rect4006"
+       width="247.49158"
+       height="146.99825"
+       x="-42.495853"
+       y="-27.57095" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-84.176811,-161.59289)">
+    <g
+       id="g3936"
+       transform="matrix(1.0911818,0,0,1,-11.387077,-2.271791)">
+      <a
+         id="a3929"
+         style="fill:#ffffff;fill-opacity:1">
+        <path
+           inkscape:connector-curvature="0"
+           d="m 145.33274,181.0437 3.05882,-3.84089 c -14.16043,-17.78417 -37.13089,-17.78417 -51.295523,0 l 3.058823,3.84089 c 12.4759,-15.66261 32.70199,-15.66261 45.17788,0 z"
+           id="path3843"
+           style="stroke-width:0.09395891;fill:#ffffff;fill-opacity:1" />
+      </a>
+      <path
+         style="stroke-width:0.09395891;fill:#ffffff;fill-opacity:1"
+         id="path3845"
+         d="m 138.22402,189.96789 3.05966,-3.84091 c -10.23882,-12.85562 -26.84094,-12.85562 -37.07976,0 l 3.05966,3.84091 c 8.54925,-10.73409 22.41119,-10.73409 30.96044,0 z"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke-width:0.09395891;fill:#ffffff;fill-opacity:1"
+         id="path3847"
+         d="m 131.11613,198.89207 3.05966,-3.84089 c -6.31385,-7.92606 -16.55014,-7.92606 -22.86397,0 l 3.05964,3.84089 a 11.841166,14.868733 0 0 1 16.74467,0 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="Citygate"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="text3915">
+      <path
+         d="m 111.91361,233.67902 0.762,-6.7056 -3.8608,-0.4064 -0.8636,4.8768 c -1.8796,1.016 -4.1656,1.4732 -6.9596,1.4732 -7.264399,0 -11.887199,-4.7752 -11.887199,-12.8524 0,-7.7724 4.5212,-12.954 11.277599,-12.954 3.302,0 5.7404,0.8636 7.7216,2.1844 l 0.9144,4.7244 3.8608,-0.4064 -0.8636,-6.7056 c -2.54,-2.2352 -6.2484,-3.9116 -11.7856,-3.9116 -10.464799,0 -16.052799,8.636 -16.052799,17.3228 0,9.652 6.7564,16.7132 16.306799,16.7132 4.6736,0 8.89,-1.1684 11.43,-3.3528 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50.79999924px;font-family:'Zilla Slab';-inkscape-font-specification:'Zilla Slab, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+         id="path832" />
+      <path
+         d="m 120.32022,208.48222 h 4.6228 v -5.2324 h -4.6228 z m 8.4328,28.0416 v -3.4544 h -3.6576 v -19.2532 h -8.3312 v 3.5052 h 3.8608 v 15.748 h -3.7084 v 3.4544 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50.79999924px;font-family:'Zilla Slab';-inkscape-font-specification:'Zilla Slab, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+         id="path834" />
+      <path
+         d="m 148.92855,230.12302 -3.302,-1.0668 c -0.6096,3.6068 -2.3368,4.1656 -3.81,4.1656 -2.3876,0 -3.5052,-1.4732 -3.5052,-4.064 v -11.938 h 8.6868 v -3.4036 h -8.6868 v -7.1628 h -4.4196 v 7.1628 h -3.5052 v 3.4036 h 3.5052 v 12.5984 c 0,4.5212 2.7432,7.2136 7.4168,7.2136 4.318,0 6.9596,-2.286 7.62,-6.9088 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50.79999924px;font-family:'Zilla Slab';-inkscape-font-specification:'Zilla Slab, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+         id="path836" />
+      <path
+         d="m 174.48333,217.32142 v -3.5052 h -10.1092 v 3.5052 h 3.2004 l -5.0292,13.8176 h -0.3048 l -5.842,-13.8176 h 3.4544 v -3.5052 h -10.8204 v 3.5052 h 2.5908 l 8.1788,19.2532 -2.6416,7.2136 h -4.0132 v 3.556 h 11.7856 v -3.556 h -3.6068 l 2.794,-7.2644 7.8232,-19.2024 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:50.79999924px;font-family:'Zilla Slab';-inkscape-font-specification:'Zilla Slab, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+         id="path838" />
+      <path
+         d="m 174.3603,247.34422 h 11.9888 c -4.4196,-0.2032 -8.2804,-2.3368 -9.398,-6.6548 l 2.8448,-1.4224 c 1.1684,3.556 4.3688,4.9784 7.4168,4.9784 4.318,0 7.366,-3.048 7.366,-8.6868 v -3.6576 c -1.3716,2.6416 -3.81,4.9276 -8.0772,4.9276 -5.3848,0 -9.7028,-3.9116 -9.7028,-11.0236 0,-6.0452 3.0988,-12.3444 10.1092,-12.3444 3.4036,0 6.1976,1.4224 7.6708,4.0132 v -3.556 h 7.2644 v 2.8956 h -3.6576 v 18.8976 c 0,6.9088 -3.8608,11.3792 -10.6172,11.6332 h 15.6972 v -57.404 h -28.9052 z m 20.2184,-24.4856 c 0,-3.81 -3.048,-6.2992 -6.7056,-6.2992 -5.1308,0 -7.2644,4.2164 -7.2644,8.9916 0,5.5372 2.9464,8.1788 6.6548,8.1788 4.2672,0 7.2136,-3.556 7.3152,-6.9596 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.79999924px;font-family:'Zilla Slab Highlight';-inkscape-font-specification:'Zilla Slab Highlight, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+         id="path840" />
+      <path
+         d="m 202.04233,247.34422 h 25.5524 v -57.404 h -25.5524 z m 4.6228,-31.6992 c 2.3368,-1.5748 5.0292,-2.1844 7.9756,-2.1844 5.2324,0 8.0772,2.4892 8.0772,7.5692 v 10.7696 c 0,1.6764 0.6096,2.4384 1.9304,2.4384 0.4572,0 1.0668,-0.1016 1.524,-0.3048 l 0.0508,2.3368 c -0.8128,0.4572 -1.8796,0.762 -2.9464,0.762 -2.6416,0 -4.064,-1.778 -4.1148,-4.572 v -0.1016 c -1.4224,2.4384 -4.064,4.6736 -7.7216,4.6736 -2.9972,0 -6.858,-1.524 -6.858,-6.35 0,-5.6896 5.4864,-6.9596 10.5664,-6.9596 1.3716,0 2.794,0.1016 4.0132,0.2032 v -2.032 c 0,-3.2512 -1.0668,-5.4864 -5.1308,-5.4864 -1.524,0 -2.9972,0.254 -4.3688,0.9144 l -0.8636,3.9116 -2.9464,-0.3556 z m 12.4968,12.3952 v -1.7272 c -1.27,-0.1016 -2.6924,-0.254 -4.2164,-0.254 -3.3528,0 -6.6548,0.7112 -6.6548,4.2164 0,2.8956 2.2352,3.81 4.2164,3.81 3.1496,0 6.4008,-2.3368 6.6548,-6.0452 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.79999924px;font-family:'Zilla Slab Highlight';-inkscape-font-specification:'Zilla Slab Highlight, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+         id="path842" />
+      <path
+         d="m 226.35093,247.34422 h 19.8628 v -57.404 h -19.8628 z m 18.542,-16.9164 c -0.6604,4.3688 -2.7432,6.604 -6.8072,6.604 -4.5212,0 -6.8072,-2.7432 -6.8072,-7.1628 v -13.1064 h -3.6576 v -2.8448 h 3.6576 v -7.2644 h 3.556 v 7.2644 h 8.8392 v 2.8448 h -8.8392 v 12.6492 c 0,2.7432 0.9144,4.5212 3.6576,4.5212 1.7272,0 2.9972,-0.7112 3.6576,-4.3688 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.79999924px;font-family:'Zilla Slab Highlight';-inkscape-font-specification:'Zilla Slab Highlight, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+         id="path844" />
+      <path
+         d="m 245.00406,247.34422 h 24.89199 v -57.404 h -24.89199 z m 22.60599,-17.3228 c -0.6096,3.8608 -3.9116,7.0104 -9.4996,7.0104 -6.4008,0 -10.66799,-4.1656 -10.66799,-11.4808 0,-7.0104 3.9624,-12.0904 10.36319,-12.0904 6.1976,0 9.5504,4.572 9.6012,9.906 0,0.8636 -0.1016,1.778 -0.3048,2.6924 h -15.90039 c 0.2032,5.0292 2.69239,7.9248 7.16279,7.9248 3.556,0 5.5372,-1.8288 6.2484,-4.6228 z m -3.9624,-6.604 c 0.3556,-3.3528 -1.524,-7.0104 -5.9436,-7.0104 -4.1656,0 -5.9944,3.2004 -6.45159,7.0104 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.79999924px;font-family:'Zilla Slab Highlight';-inkscape-font-specification:'Zilla Slab Highlight, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+         id="path846" />
+    </g>
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,0,87)"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3919" />
+    <g
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+       id="flowRoot4531" />
+  </g>
+</svg>
