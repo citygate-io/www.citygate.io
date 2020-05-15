@@ -18,7 +18,6 @@ jobs:
       uses: garygrossgarten/github-action-ssh@release
       with:
         command: cd /docker/active/web && docker-compose pull && docker-compose up -d
-        host: internal.citygate.io
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSPHRASE }}
-        tryKeyboard: true
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+        privateKey: ${{ secrets.SSH_SSHKEY }}

@@ -11,7 +11,6 @@ jobs:
     - name: Login to DockerHub Registry
       run: echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
     - name: Build image
-
       run: docker build . --file Dockerfile --tag citygate/www.citygate.io:develop
     - name: Push image
       run: docker push citygate/www.citygate.io:develop
@@ -19,7 +18,7 @@ jobs:
       uses: garygrossgarten/github-action-ssh@release
       with:
         command: cd /docker/active/web && docker-compose pull && docker-compose up -d
-        host: internal.citygate.io
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSPHRASE }}
-        tryKeyboard: true
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+        privateKey: ${{ secrets.SSH_SSHKEY }}
+        
