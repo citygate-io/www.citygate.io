@@ -5,11 +5,11 @@ $services = array(
     array("ChirpStack", "LoRaWAN server", "success", ""),
     array("Grafana", "Data visualisation and dashboarding", "success", ""),
     array("InfluxDB", "Time-series data storage", "success", ""),
-    array("Jenkins", "CI and automation system", "success", ""),
+    array("Jenkins", "CI and automation system", "critical", ""),
     array("Keycloak", "Authentication and identity management", "success", ""),
     array("MQTT", "LoRaWAN message broker", "success", ""),
     array("Node-RED", "User-friendly application development", "success", ""),
-    array("Prometheus", "Application monitoring", "success", ""),
+    array("Prometheus", "Application monitoring", "critical", ""),
     array("Traefik", "Load balancing", "success", ""),
 );
 
