@@ -41,8 +41,6 @@ $navbar_links = array(
 
     <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png" />
 
-    <script async src="https://analytics.citygate.io/cganalytics.js" data-ackee-server="https://analytics.citygate.io" data-ackee-domain-id="<?php echo(getenv('ACKEE_TOKEN')); ?>"></script>
-
 </head>
 
 <body>

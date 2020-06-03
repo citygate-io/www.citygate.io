@@ -21,15 +21,15 @@ include_once '../includes/top.php';
         <h1>Service Status</h1>
         <p class="lead">Check the status of CityGate services here.</p>
 
-        <?php foreach ($services as $s) { ?>
-            <div class="panel-<?php echo($s[2]); ?> mvm">
-                <h5><?php echo($s[0]); ?></h5>
-                <p class="lead"><?php echo($s[1]); ?></p>
-                <?php if ($s[2] == "critical") { ?>
-                <p><?php echo($s[3]); ?></p>
-                <?php } ?>
-            </div>
-        <?php } ?>
+        <?php foreach ($services as $s) {
+            echo("<div class='panel-" . $s[2] . " mvm'>");
+                echo("<h5>" . $s[0] . "</h5>");
+                echo("<p class='lead'>" . $s[1] . "</p>");
+                if ($s[2] == "critical") {
+                    echo("<p>" . $s[3] . "</p>");
+                }
+            echo("</div>");
+        } ?>
 
     </div>
 </div>
