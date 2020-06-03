@@ -1,6 +1,6 @@
-<?php $page_title = "Contact Us"; ?>
-
 <?php
+
+$page_title = "Contact Us";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -76,7 +76,7 @@ include_once '../includes/top.php';
 
         <p class="lead">If you would like to contact the team, please fill in <b>all</b> fields in the form below.</p>
 
-	<form class="bcu-form" action="/contact.php" method="post">
+	<form class="bcu-form" action="/contact" method="post">
 		<fieldset>
 			<div class="col-row pal">
 				<div class="left size1of4"><label for="name">Full Name</label></div>

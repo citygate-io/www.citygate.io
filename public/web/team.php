@@ -21,20 +21,20 @@ include_once '../includes/top.php';
         <p class="lead">The CityGate project is made up of a diverse team of dedicated staff members and students, at varying stages of their degree courses.</p>
         <div class="relative">
             <ul class="no-bullets mln">
-                <?php foreach ($team as $member) { ?>
-                <li class="pvl clear-fix bb-line bw1 bc5">
-                    <div class="col-row">
-                        <div class="left size2of12"><img style="max-height: 128px;" class="person" alt="<?php echo($member[0]); ?>" src="<?php echo('/assets/img/team/' . $member[2]); ?>"></img></div>
-                        <div class="left size10of12">
-                            <div class="mls">
-                                <h5 class="mbm"><?php echo($member[0]); ?></h5>
-                                <p class="bold mbs"><?php echo($member[1]); ?></p>
-                                <p><?php echo($member[3]); ?></p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <?php } ?>
+                <?php foreach ($team as $member) {
+                echo("<li class='pvl clear-fix bb-line bw1 bc5'>");
+                    echo("<div class='col-row'>");
+                        echo("<div class='left size2of12'><img style='max-height: 128px;' class='person' alt='" . $member[0] . "' src='/assets/img/team/" . $member[2] . "'></img></div>");
+                        echo("<div class='left size10of12'>");
+                            echo("<div class='mls'>");
+                                echo("<h5 class='mbm'>" . $member[0] . "</h5>");
+                                echo("<p class='bold mbs'>" . $member[1] . "</p>");
+                                echo("<p>" . $member[3] . "</p>");
+                            echo("</div>");
+                        echo("</div>");
+                    echo("</div>");
+                echo("</li>");
+                } ?>
             </ul>
         </div>
         
