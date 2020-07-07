@@ -15,7 +15,8 @@ $navbar_links = array(
     array("The Team", "/team"),
     array("Our Projects", "/projects"),
     array("Contact Us", "/contact"),
-    array("Service Status", "/status"),
+    // array("Service Status", "/status"),
+    array("Service Status", "https://status.citygate.io"),
 );
 ?>
 
