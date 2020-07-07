@@ -3,7 +3,7 @@ $page_title = "Service Status";
 $services = array(
     // array("Name", "Description", "success/critical", "incident"),
     array("ChirpStack", "LoRaWAN server", "success", ""),
-    array("Grafana", "Data visualisation and dashboarding", "success", ""),
+    array("Grafana", "Data visualisation and dashboarding", "critical", "Grafana is currently unavailable due to an unforseen fault."),
     array("InfluxDB", "Time-series data storage", "success", ""),
     array("Jenkins", "CI and automation system", "critical", ""),
     array("Keycloak", "Authentication and identity management", "success", ""),
