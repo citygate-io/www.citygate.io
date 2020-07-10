@@ -6,50 +6,46 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-function alert($type, $msg) {
-	echo("<div class='panel-".$type." mvm'><p>".$msg."</p></div>");
-	echo("<br>");
-}
-
-function new_send_email($name, $email, $org, $query_type, $msg) {
-	$mail = new PHPMailer(true);
-	$mail->isSMTP();
-	$mail->Host = getenv('CONTACT_SMTP_SERVER');
-	$mail->SMTPAuth = false;
-	$mail->Port = getenv('CONTACT_SMTP_PORT');
-	$mail->setFrom('noreply@citygate.io', 'CityGate');
-	$recips = explode(",", getenv('CONTACT_SEND_TO'));
-	foreach ($recips as $recip) {
-		if (filter_var($recip, FILTER_VALIDATE_EMAIL)) {
-			$mail->addCC($recip);
+if (getenv('CONTACT_FORM_ENABLED') == "true") {
+	function new_send_email($name, $email, $org, $query_type, $msg) {
+		$mail = new PHPMailer(true);
+		$mail->isSMTP();
+		$mail->Host = getenv('CONTACT_SMTP_SERVER');
+		$mail->SMTPAuth = false;
+		$mail->Port = getenv('CONTACT_SMTP_PORT');
+		$mail->setFrom('noreply@citygate.io', 'CityGate');
+		$recips = explode(",", getenv('CONTACT_SEND_TO'));
+		foreach ($recips as $recip) {
+			if (filter_var($recip, FILTER_VALIDATE_EMAIL)) {
+				$mail->addCC($recip);
+			}
+		}
+		$mail->addReplyTo($email, $name);
+		$mail->isHTML(true);
+		$mail->Subject = "Contact Form: " . $query_type;
+		$mail->Body = "
+			<html>
+			<head>
+			<style>table th td {border: 1px solid black;}</style>
+			</head>
+			<body>
+			<h2>Contact Form Submission</h2>
+			<p>Hi,</p>
+			<p><b>".$name."</b> (".$email.") from <b>".$org."</b> has filled in the contact form on the CityGate website. Please find their submission below:</p>
+			<p><b>Query Type: </b>".$query_type."<br><b>Message: </b>".$msg."</p>
+			<p>You can respond to this submission by replying to this email. The sender's email address will automatically be placed in the 'To' field.</p>
+			<p>Thanks,<br>CityGate</p>
+			</body>
+			</html>
+		";
+		try {
+			$mail->send();
+			return "0";
+		} catch (Exception $e) {
+			return $mail->ErrorInfo;
 		}
 	}
-	$mail->addReplyTo($email, $name);
-	$mail->isHTML(true);
-	$mail->Subject = "Contact Form: " . $query_type;
-	$mail->Body = "
-<html>
-<head>
-<style>table th td {border: 1px solid black;}</style>
-</head>
-<body>
-<h2>Contact Form Submission</h2>
-<p>Hi,</p>
-<p><b>".$name."</b> (".$email.") from <b>".$org."</b> has filled in the contact form on the CityGate website. Please find their submission below:</p>
-<p><b>Query Type: </b>".$query_type."<br><b>Message: </b>".$msg."</p>
-<p>You can respond to this submission by replying to this email. The sender's email address will automatically be placed in the 'To' field.</p>
-<p>Thanks,<br>CityGate</p>
-</body>
-</html>
-";
-	try {
-		$mail->send();
-		return "0";
-	} catch (Exception $e) {
-		return $mail->ErrorInfo;
-	}
 }
-
 
 include_once '../includes/top.php';
 
@@ -118,11 +114,9 @@ include_once '../includes/top.php';
 			</div>
 		</form>
 
-		<?php } else { ?>
-		<div class="panel-critical mvm">
-          <p>Due to excessive spam, the contact form has been disabled. To contact us, please email <a href="mailto:<?php echo(getenv('CONTACT_FORM_DISABLE_CONTACT_EMAIL')); ?>"><?php echo(getenv('CONTACT_FORM_DISABLE_CONTACT_NAME')); ?></a>.</p>
-        </div>
-		<?php } ?>
+		<?php } else {
+			echo("<p class='lead'>Due to excessive spam, the contact form has been disabled. We apologise for the inconvenience.<br>To contact us, please email <a href='mailto:" . getenv('CONTACT_FORM_DISABLE_CONTACT_EMAIL') . "'>" . getenv('CONTACT_FORM_DISABLE_CONTACT_NAME') . "</a>.</p>");
+		} ?>
 
     </div>
 </div>

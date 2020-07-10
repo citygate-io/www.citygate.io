@@ -9,6 +9,11 @@ if (file_exists('../vendor/autoload.php')) {
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
+function alert($type, $msg) {
+	echo("<div class='panel-".$type." mvm'><p>".$msg."</p></div>");
+	echo("<br>");
+}
+
 $navbar_links = array(
     // array("<name>", "<URL>"),
     array("Home", "/"),
