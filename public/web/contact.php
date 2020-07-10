@@ -74,47 +74,55 @@ include_once '../includes/top.php';
 		}
 		?>
 
+		<?php if (getenv('CONTACT_FORM_ENABLED') == "true") { ?>
+
         <p class="lead">If you would like to contact the team, please fill in <b>all</b> fields in the form below.</p>
 
-	<form class="bcu-form" action="/contact" method="post">
-		<fieldset>
+		<form class="bcu-form" action="/contact" method="post">
+			<fieldset>
+				<div class="col-row pal">
+					<div class="left size1of4"><label for="name">Full Name</label></div>
+					<div class="left size3of4"><input type="text" name="name" id="name" class="width-auto" maxlength="255"></div>
+				</div>
+				<div class="col-row pal">
+					<div class="left size1of4"><label for="email">Email Address</label></div>
+					<div class="left size3of4"><input type="email" name="email" id="email" class="width-auto" maxlength="255"></div>
+				</div>
+				<div class="col-row pal">
+					<div class="left size1of4"><label for="org">Organisation</label></div>
+					<div class="left size3of4"><input type="text" name="org" id="org" class="width-auto" maxlength="255"></div>
+				</div>
+				<div class="col-row pal">
+					<div class="left size1of4"><label for="type">Query Type</label></div>
+					<div class="left size3of4">
+						<select class="width-auto" name="type" id="type">
+							<option></option>
+							<option value="General Question">General Question</option>
+							<option value="Projects or Partnerships">Projects or Partnerships</option>
+							<option value="Website">Website</option>
+							<option value="Other">Other</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-row pal">
+					<div class="left size1of4"><label for="query">Query</label></div>
+					<div class="left size3of4"><textarea name="query" id="query" maxlength="255"></textarea></div>
+				</div>
+			</fieldset>
+
 			<div class="col-row pal">
-				<div class="left size1of4"><label for="name">Full Name</label></div>
-				<div class="left size3of4"><input type="text" name="name" id="name" class="width-auto" maxlength="255"></div>
-			</div>
-			<div class="col-row pal">
-				<div class="left size1of4"><label for="email">Email Address</label></div>
-				<div class="left size3of4"><input type="email" name="email" id="email" class="width-auto" maxlength="255"></div>
-			</div>
-			<div class="col-row pal">
-				<div class="left size1of4"><label for="org">Organisation</label></div>
-				<div class="left size3of4"><input type="text" name="org" id="org" class="width-auto" maxlength="255"></div>
-			</div>
-			<div class="col-row pal">
-				<div class="left size1of4"><label for="type">Query Type</label></div>
-				<div class="left size3of4">
-					<select class="width-auto" name="type" id="type">
-						<option></option>
-						<option value="General Question">General Question</option>
-						<option value="Projects or Partnerships">Projects or Partnerships</option>
-						<option value="Website">Website</option>
-						<option value="Other">Other</option>
-					</select>
+				<div class="left size3of4 push1of4">
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button>
 				</div>
 			</div>
-			<div class="col-row pal">
-				<div class="left size1of4"><label for="query">Query</label></div>
-				<div class="left size3of4"><textarea name="query" id="query" maxlength="255"></textarea></div>
-			</div>
-		</fieldset>
+		</form>
 
-		<div class="col-row pal">
-			<div class="left size3of4 push1of4">
-				<button type="submit">Submit</button>
-				<button type="reset">Reset</button>
-			</div>
-		</div>
-	</form>
+		<?php } else { ?>
+		<div class="panel-critical mvm">
+          <p>Due to excessive spam, the contact form has been disabled. To contact us, please email <a href="mailto:<?php echo(getenv('CONTACT_FORM_DISABLE_CONTACT_EMAIL')); ?>"><?php echo(getenv('CONTACT_FORM_DISABLE_CONTACT_NAME')); ?></a>.</p>
+        </div>
+		<?php } ?>
 
     </div>
 </div>
