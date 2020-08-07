@@ -43,7 +43,6 @@
 					<div class="mll m-box">
 						<h4 class="mbm">Quick Links</h4>
 						<ul class="block-list no-bullets">
-							<li><a class="simple" href="/contact">Report a site issue</a></li>
 							<li><a class="simple" href="https://icity.bcu.ac.uk/">iCity</a></li>
 							<li><a class="simple" href="https://moodle.bcu.ac.uk/">Moodle</a></li>
 							<li><a class="simple" href="https://outlook.office.com/">Email</a></li>

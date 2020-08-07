@@ -1,16 +1,13 @@
 <?php
 $page_title = "Project Team";
 $team = array(
-    array("Adel Aneiba", "Lead Project Co-ordinator", "aaneiba.jpg", "Dr. Adel Aneiba is the lead academic on the project. He is the centre lead for Cloud Computing at the University."),
-    // array("Brett Nangle", "Lead Developer", "bnangle.jpg", "Brett is currently a final year student at the University, completing his Final Year Project as part of CityGate."),
+    array("Adel Aneiba", "Lead Project Co-ordinator", "aaneiba.jpg", "Dr. Adel Aneiba is the lead academic on the project. He is head of the Centre for Networks and Cyber Security at the university."),
     array("Bruno Junior", "Network Engineer", "bjunior.jpg", "Bruno is the main network engineer. His dissertation is based on the private LoRaWAN backend."),
-    // array("Connor Richards", "Project Student", "crichards.jpg", "Connor is currently a final year student at the University, completing his Final Year Project as part of CityGate."),
-    array("Dalia El-Banna", "Researcher", "delbanna.jpg", "Dalia is our main researcher. She is a PhD student at the University."),
-    array("John Hayes", "Technical Manager", "jhayes.jpg", "John is currently a PhD student at the University."),
-    // array("Luke Tainton", "Project Student", "ltainton.jpg", "Luke is currently a final year student at the University, completing his Final Year Project as part of CityGate."),
-    array("Mohammad Nour Al-baarini", "Project Staff Member", "malbaarini.jpg", "Mohammad is a visiting lecturer at the University."),
-    array("Stephen Kinsey", "Data Analyst", "skinsey.jpg", "Stephen is a current placement student at the University. He is responsible for writing methods of processing and analysing data received by the platform."),
-    array("Waldo Cervantes", "Researcher", "wcervantes.jpg", "Waldo is a lecturer in Distributed Systems at the University."),
+    array("Dalia El-Banna", "Researcher", "delbanna.jpg", "Dalia is our main researcher. She is a PhD student at the university, focussing on software-defined networks."),
+    array("John Hayes", "Technical Manager", "jhayes.jpg", "John is a PhD student at the university, focussing on blockchain."),
+    array("Mohammad Nour Al-baarini", "Project Staff Member", "malbaarini.jpg", "Mohammad is a visiting lecturer at the university."),
+    array("Stephen Kinsey", "Data Analyst", "skinsey.jpg", "Stephen is a final year student at the university. He is responsible for writing methods of processing and analysing data received by the platform."),
+    array("Waldo Cervantes", "Researcher", "wcervantes.jpg", "Waldo is a senior lecturer in Distributed Systems at the university."),
 );
 include_once '../includes/top.php';
 ?>
@@ -37,7 +34,7 @@ include_once '../includes/top.php';
                 } ?>
             </ul>
         </div>
-        
+
     </div>
 </div>
 
