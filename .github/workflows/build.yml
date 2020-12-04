@@ -12,7 +12,7 @@ jobs:
     - name: Login to GitHub Package Registry
       run: echo ${{ secrets.GITHUB_TOKEN }} | docker login https://docker.pkg.github.com -u luketainton --password-stdin
     - name: Build image for GitHub Package Registry
-      run: docker build . --file Dockerfile --build-arg --tag docker.pkg.github.com/citygate-io/www.citygate.io/www.citygate.io:latest
+      run: docker build . --file Dockerfile --tag docker.pkg.github.com/citygate-io/www.citygate.io/www.citygate.io:latest
     - name: Push image to GitHub Package Registry
       run: |
         docker push docker.pkg.github.com/citygate-io/www.citygate.io/www.citygate.io:latest
