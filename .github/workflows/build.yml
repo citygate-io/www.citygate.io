@@ -1,0 +1,29 @@
+name: Deploy
+on:
+  push:
+    branches: main
+
+jobs:
+  build:
+    name: Push to GitHub Package Registry
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Login to GitHub Package Registry
+      run: echo ${{ secrets.GITHUB_TOKEN }} | docker login https://docker.pkg.github.com -u luketainton --password-stdin
+    - name: Build image for GitHub Package Registry
+      run: docker build . --file Dockerfile --build-arg --tag docker.pkg.github.com/citygate-io/www.citygate.io/www.citygate.io:latest
+    - name: Push image to GitHub Package Registry
+      run: |
+        docker push docker.pkg.github.com/citygate-io/www.citygate.io/www.citygate.io:latest
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Update image on server
+      uses: garygrossgarten/github-action-ssh@release
+      with:
+        command: cd /docker/active/web && docker-compose pull && docker-compose up -d
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+        privateKey: ${{ secrets.SSH_SSHKEY }}
