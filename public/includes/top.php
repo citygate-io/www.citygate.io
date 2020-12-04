@@ -118,8 +118,3 @@ $navbar_links = array(
                 <span class="block current-content"><?php echo($page_title); ?></span>
             </li>
         </ul>
-
-        <div class="panel-warning mvm">
-          <!-- <h5>COVID-19</h5> -->
-          <p>Birmingham City University is currently asking all staff and students to work from home where possible. We would like to reassure you that the CityGate team are able to work remotely and the platform is still online.</p>
-        </div><br>
