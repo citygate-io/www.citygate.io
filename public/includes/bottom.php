@@ -57,7 +57,7 @@
 		<div id="copyright" class="secondary-bg-grey-light-1 ptm">
 			<div class="footer-inner page ptm pbm">
 				<nav>
-					<ul class="base-tabs li-borders sml"><li><span class="mtm">&copy; Birmingham City University 2020</span></li></ul>
+					<ul class="base-tabs li-borders sml"><li><span class="mtm">&copy; 2011-2021 Birmingham City University</span></li></ul>
 				</nav>
 			</div>
 		</div>
